@@ -1,0 +1,33 @@
+{
+  "name": "paas-express-worker",
+  "version": "1.0.0",
+  "description": "Express.js running on Cloudflare Workers edge network",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "express",
+    "paas",
+    "serverless"
+  ],
+  "author": "Atha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "overrides": {
+    "iconv-lite": "0.6.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261006.1",
+    "@types/express": "^5.0.0",
+    "typescript": "^5.6.3",
+    "wrangler": "^4.147.0"
+  }
+}
