@@ -1,17 +1,17 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "paas-express-atha",
-  "main": "src/index.ts",
-  "compatibility_date": "2026-10-06",
-  "compatibility_flags": [
-    "nodejs_compat"
-  ],
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "paas-students-db",
-      "database_id": "paas-students-db",
-      "migrations_dir": "migrations"
-    }
-  ]
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "paas-express-atha",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-10-06",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "paas-students-db",
+			"database_id": "6417daf2-c82b-456f-9990-36f7249c6bcb",
+			"migrations_dir": "migrations"
+		}
+	]
 }
